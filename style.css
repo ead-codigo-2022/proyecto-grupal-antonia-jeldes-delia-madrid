@@ -52,6 +52,8 @@ table {
     font-family: 'Alegreya Sans', sans-serif;
 
     font-family: 'Krona One', sans-serif;
+   font-family: 'Actor', sans-serif;
+                                                
     */
 
 .header {
@@ -67,10 +69,10 @@ table {
     text-align: center;
     padding: 12px;
     text-decoration: none;
-    font-size: 18px;
+    font-size: 14px;
     line-height: 25px;
     border-radius: 4px;
-    font-family: 'Alegreya Sans', sans-serif;
+    font-family: Actor;
   }
   
   /* Style the logo link (notice that we set the same value of line-height and font-size to prevent the header to increase when the font gets bigger */
@@ -79,7 +81,7 @@ table {
     font-weight: bold;
   }
   
-  /* Change the background color on mouse-over */
+  /* hover */
   .header a:hover  {
     
     border: black ;
@@ -87,23 +89,15 @@ table {
     border-radius: 20%;
     color: black;
     border-width: 1px;
-    box-shadow: 0 0 2px rgba(0, 0, 0, 0);
-
-   
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0); 
   }
   
-  /* Style the active/current link*/
-  .header a.active {
-    background-color: dodgerblue;
-    color: white;
-  }
-  
-  /* Float the link section to the right */
+    /* hacia la derecha */
   .header-right {
     float: right;
   }
   
-  /* Add media queries for responsiveness - when the screen is 500px wide or less, stack the links on top of each other */
+  /*  para que el menu de navegacion se comprima en pantallas pequeñas*/
   @media screen and (max-width: 500px) {
     .header a {
       float: none;
@@ -118,3 +112,11 @@ table {
     background-color: #F6F3EE;
 
   }
+
+  h1 {
+    font-family: 'Krona One', sans-serif;
+    font-size: 60px;
+    line-height: 80px;
+  }
+
+  
