@@ -223,9 +223,12 @@ p {
     text-decoration: none;
   cursor: pointer;
   border-radius: 15px;
-  transition: background 250ms ease-in-out, transform 150ms ease;-webkit-appearance: none;-moz-appearance: none;
 }
-h5 {
+  button :hover {
+    color: white;
+  }
+
+  h5 {
 font-family: 'Krona One', sans-serif;
 text-align: center;
 }
