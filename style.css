@@ -57,9 +57,10 @@ table {
     */
 
 .header {
-    overflow: hidden;
+    
     background-color: #F6F3EE;
-    padding: 20px 10px;
+    padding: 5px 10px;
+    position: static;
   }
   
  
@@ -71,8 +72,9 @@ table {
     text-decoration: none;
     font-size: 14px;
     line-height: 25px;
-    border-radius: 4px;
+    border-radius: 10px;
     font-family: Actor;
+  
   }
   
   /* Style the logo link (notice that we set the same value of line-height and font-size to prevent the header to increase when the font gets bigger */
@@ -82,14 +84,14 @@ table {
   }
   
   /* hover */
-  .header a:hover  {
+  .header-right  a:hover  {
     
-    border: black ;
+    border:rgba(0, 0, 0, 0.3); ;
     border-style:solid;
-    border-radius: 20%;
+   
     color: black;
-    border-width: 1px;
-    box-shadow: 0 0 2px rgba(0, 0, 0, 0); 
+    border-width: 2px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0); 
   }
   
     /* hacia la derecha */
@@ -110,6 +112,7 @@ table {
   }
   body {
     background-color: #F6F3EE;
+    
 
   }
 
@@ -117,6 +120,56 @@ table {
     font-family: 'Krona One', sans-serif;
     font-size: 60px;
     line-height: 80px;
+    color: black;
   }
 
+ 
+
+
   
+.wrapper {
+  height: 100vh;
+  overflow-y: auto;
+  overflow-x: hidden;
+  perspective: 10px;
+}
+
+header {
+  position: relative;
+  display: flex;
+  height: 100%;
+  width: 100%;
+  transform-style: preserve-3d;
+  z-index: -1;
+}
+.titulo {
+  width: 2em;
+  margin-left:5%;
+  margin-top: 10%;
+  
+    }
+
+.fondodelantero {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  z-index: -1;
+}
+section {
+  font-size: 2rem;
+  padding: 2rem;
+  background-color:rgba(0, 0, 0, 0.6)  ;
+  color: white;
+  align-items: center;
+}
+
+h2{
+  font-family: 'Alegreya Sans', sans-serif ;
+
+}
+
+p {
+  font-family: 'Alegreya Sans', sans-serif;
+  font-size: medium;
+}  
