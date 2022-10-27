@@ -12,7 +12,18 @@
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-
+    <script type=""text/javascript">
+        $(document).ready(function(){
+            $(window).scroll(function(){
+                if($(this).scrollTop()>0){
+                    $(".fondodelantero").css({"opacity" : "0"})
+                }
+                else {
+                   $(".fondodelantero").css ({"opacity" : "1"}) 
+                }
+            }
+        }
+    </script>
     <!-- Aqui las tipografías-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -28,24 +39,28 @@
     <div class="header">
         <a href="#default" class="logo">INICIO</a>
         <div class="header-right">
-            <a class="Que-es" href="#"> ¿QUÉ ES?</a>
-            <a class="Como-nos-afecta" href="#"> ¿CÓMO NOS AFECTA?</a>
-            <a class="En Chile" href="#"> EN CHILE</a>
+            <a class="que-es" href="#que-es"> ¿QUÉ ES?</a>
+            <a class="como-nos-afecta" href="#"> ¿CÓMO NOS AFECTA?</a>
+            <a class="en chile" href="#"> EN CHILE</a>
+            <a class="resolver-la-problematica" href="#"> RESOLUCIONES</a>
         </div>
       </div> 
 
-      <div class="wrapper">
+    <div class="seccion1">
         <header>
             <h1 class="titulo"> MODA <br> RÁPIDA</h1>
-            <img src="/img/incio-fast-fashion2.png" class="fondodelantero" alt="montaña de ropa en el desierto de atacama" 
-           
+           <img src="/img/incio-fast-fashion2.png" class="fondodelantero" alt="montaña de ropa en el desierto de atacama" 
         </header>
-       </div>
+    </div>
 
-       <section>
-        <h2>hola</h2>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti, nihil adipisci distinctio quos cum explicabo facilis vitae odit optio placeat. Quod ratione beatae tempora optio voluptatibus totam ad! Voluptatem, cupiditate.</p>
-       </section>
+    <div class="seccion2" id="que-es">
+        <div class="parrafo">
+            <h2 class="titulo"> ¿QUÉ ES?</h2>
+         <p>La moda rápida (Fast Fashion)  se refiere a la producción en masa de ropa de mala calidad que replica las últimas tendencias de la moda. Los productos se venden a precios increíblemente bajos, compensando la increíblemente baja calidad. Algunas marcas de moda rápida reconocibles son Shein, Fashion Nova, H&M y Forever 21. Como era de esperar, estas son solo algunas de muchas marcas con prácticas de producción dañinas.</p>
+        </div>
+        
+       
+    </div>
 </body>
 
 
