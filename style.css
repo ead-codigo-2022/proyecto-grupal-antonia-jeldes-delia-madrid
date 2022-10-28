@@ -120,12 +120,16 @@ table {
       display: block;
       text-align: left;
     }
-   
+   p {
+    width: 100%;
+   }
     
     .header-right {
       float: none;
     }
-  
+  h1 {
+    text-align: left;
+  }
   }
   body {
     background-color: #F6F3EE;
@@ -137,16 +141,14 @@ table {
 
   h1 {
     font-family: 'Krona One', sans-serif;
-    font-size: 60px;
+    font-size: 5vh;
     line-height: 80px;
     color: black;
     margin-left: 0%;
     padding-left: 5%;
   }
 .seccion1 {
-  
   margin-top: 10%;
- 
 
 }
 .fondodelantero{
@@ -165,7 +167,7 @@ transition: .5s;
 
 .seccion2 {
   font-size: 2rem;
-  padding: 2rem;
+  padding: 1rem;
   background-color:   #F6F3EE;
   padding: 10%;
   display: flex;
@@ -174,8 +176,9 @@ transition: .5s;
   flex-direction: column;
 }
 .parrafo {
-  width:50% ;
+  width:50vh ;
   padding: 5%;
+  margin: 5px;
 }
 
 h2{
@@ -258,7 +261,7 @@ p {
   
 
 }
-.but{
+.but {
   color: white;
 
 }
@@ -280,19 +283,19 @@ footer{
 }
 .greenwashing {
   background-color: #326F59;
-  width: 110vh;
+  width: 60vh;
   padding: 2rem;
   border-bottom-right-radius: 30px;
   border-top-right-radius: 30px;
   color: white;
-  font-size: 10vh;
+  
   
   
 }
 /*titulos con fondo verde*/
 .seccion3
 {
- width: 100%;
+ width:100vh;
  margin-left: 0%;
  margin-right: auto;
  margin-top: 0%;
