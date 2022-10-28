@@ -418,4 +418,13 @@ bottom: 0;
   background-color: rgba(0, 0, 0, 0.03);
   transition: 0.5s;
 }
+li {
 
+    width:100vh ;
+    font-family: 'Alegreya Sans', sans-serif;
+    margin: 5px;
+    font-size: 2rem;
+    background-color:   #F6F3EE;
+    padding: 10%;
+  
+}

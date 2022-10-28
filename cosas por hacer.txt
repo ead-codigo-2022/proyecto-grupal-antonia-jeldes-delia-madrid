@@ -2,10 +2,9 @@ En GENERAL:
 linkear las paginas sueltas al index de alguna forma
 COMPROBAR TODO!!!!
 INDEX
--rellenar con texto e imagenes verdaderas
-DESIERTO ATACAMA
--todo lol
--parrafo contextual
+podrian haber un par de videos
+-DESIERTO ATACAMA
+-linkear dos noticias como ficha
 -linkear video
 
 ECONOMIA CIRCULAR
