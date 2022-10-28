@@ -302,17 +302,3 @@ footer{
 
 }
 
-.hm-decatlon {
-  font-family: 'Alegreya Sans', sans-serif;
-  color:white ;
-  padding: 1rem 2rem;
-  background-color: #326F59;
-  margin: 0;
-  font-size: 20px;
-  display: inline-block;
-  border: none;
-    text-align: right;
-    text-decoration: none;
-  cursor: pointer;
-  border-radius: 15px;
-}
