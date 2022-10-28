@@ -1,26 +1,35 @@
 En GENERAL:
 linkear las paginas sueltas al index de alguna forma
+COMPROBAR TODO!!!!
 INDEX
 -rellenar con texto e imagenes verdaderas
 DESIERTO ATACAMA
 -todo lol
 -parrafo contextual
 -linkear video
-ECOCITEX
--todo
--quizas esta página se podría eliminar
+
 ECONOMIA CIRCULAR
--todo
+-darle estilo al ol
+video en que es 
+cambiar la imagen inicial
 GREENWASHING LISTO 
 -arreglart el titulo en css (no se q le paso uwu)
 LEY REP
--todo
+-arreglar tamaño de imagen
+crear div de secciones
+insertar un video
+ordenar los botones
+insertar el video como video
 MARCAS SUSTENTABLES
 -ESTA LISTA
 -si queda tiempo le arreglearia poner una imagen por cada una y que el boton sea el titulo y que este antes que el parrafo
 
 REDES SOCIALES
 - diagramacion
-SOBRE NOSOTRAS
-- falta lo de Delia
+la caja del titulo esta muy pequeña wtf
+insertar los tiktoks como video y no botones
+generar cajas
+arreglar footer
+
+SOBRE NOSOTRAS LISTO
 
