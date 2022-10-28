@@ -1,0 +1,26 @@
+En GENERAL:
+linkear las paginas sueltas al index de alguna forma
+INDEX
+-rellenar con texto e imagenes verdaderas
+DESIERTO ATACAMA
+-todo lol
+-parrafo contextual
+-linkear video
+ECOCITEX
+-todo
+-quizas esta página se podría eliminar
+ECONOMIA CIRCULAR
+-todo
+GREENWASHING
+-arreglart el titulo en css (no se q le paso uwu)
+LEY REP
+-todo
+MARCAS SUSTENTABLES
+-ESTA LISTA
+-si queda tiempo le arreglearia poner una imagen por cada una y que el boton sea el titulo y que este antes que el parrafo
+
+REDES SOCIALES
+- todo
+SOBRE NOSOTRAS
+- falta lo de Delia
+

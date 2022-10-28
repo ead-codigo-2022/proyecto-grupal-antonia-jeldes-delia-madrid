@@ -368,4 +368,10 @@ gap: 10ox;
 bottom: 0;
 
 }
+.botonnosotrasp:hover {
+  color:black;
+  text-decoration: underline;
+  background-color: rgba(0, 0, 0, 0.03);
+  transition: 0.5s;
+}
 
