@@ -217,11 +217,35 @@ transition: .5s;
   min-width: 250px;
   width: 100%;
   flex-direction: column;
+  justify-content: space-between;
+  align-items: baseline;
+  
+}
+.parrafo-greenwashing {
+  
+  display: flex;
+  min-width: 250px;
+  width: 100%;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  
+}
+.videogreen {
+  align-self: flex-end;
+}
+
+.linkhm {
+  align-self: flex-end ;
 }
 .parrafo {
-  width:50vh ;
-  padding: 5%;
+  width:100vh ;
+ 
   margin: 5px;
+  font-size: 2rem;
+  background-color:   #F6F3EE;
+  padding: 10%;
 }
 
 
@@ -304,26 +328,29 @@ footer{
 .sobre-nosotras{
   margin: 5rem;
 }
+
+/*titulos con fondo verde/ greenwashing*/
+.seccion3 {
+  width:100vh;
+  margin-left: 0%;
+  margin-top: 0%;
+  left: 0;
+  display: flex;
+  justify-content: flex-start;
+ 
+ }
 .greenwashing {
   background-color: #326F59;
-  width: 60vh;
+  width: 100%;
   padding: 2rem;
   border-bottom-right-radius: 30px;
   border-top-right-radius: 30px;
   color: white;
-  
-  
-  
+  left:0;
+  text-align: start;
+   
 }
-/*titulos con fondo verde*/
-.seccion3
-{
- width:100vh;
- margin-left: 0%;
- margin-right: auto;
- margin-top: 0%;
 
-}
 /* página pymes / marcas sustentables */
 
 .containerpymes {
