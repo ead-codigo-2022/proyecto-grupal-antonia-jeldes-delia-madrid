@@ -11,7 +11,7 @@ ECOCITEX
 -quizas esta página se podría eliminar
 ECONOMIA CIRCULAR
 -todo
-GREENWASHING
+GREENWASHING LISTO 
 -arreglart el titulo en css (no se q le paso uwu)
 LEY REP
 -todo
