@@ -122,6 +122,11 @@ table {
     }
    p {
     width: 100%;
+    margin: 10%;
+   }
+   .parrafo {
+    width: 100vh;
+    margin: 10%;
    }
     
     .header-right {
@@ -193,6 +198,8 @@ table {
   }
 .seccion1 {
   margin-top: 10%;
+  display: flex;
+  flex-wrap: wrap;
 
 }
 .seccion2 {
