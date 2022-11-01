@@ -438,6 +438,7 @@ align-items: stretch;
 align-content: flex-start;
 box-sizing: border-box;
 
+
 }
 .contenedor-tiktok {
   display: flex;
@@ -453,8 +454,8 @@ align-items: flex-end;
 width: 15rem;
 min-width: 10 rem;
 padding: 2%;
-background-color: rgba(0, 0, 0, 0.03);
-border-radius: 10%;
+background-color: rgba(0, 0, 0, 0.06);
+border-radius: 30px;
 margin: 2%;
 position: relative;
 display: flex;
@@ -488,14 +489,15 @@ bottom: 0;
   background-color: rgba(0, 0, 0, 0.03);
   transition: 0.5s;
 }
-li {
+ol {
 
     width:100vh ;
     font-family: 'Alegreya Sans', sans-serif;
-    margin: 5px;
-    font-size: 2rem;
-    background-color:   #F6F3EE;
-    padding: 10%;
+      font-size: 1rem;
+   margin-left: 10rem;
+   line-height: 50px;
+   
+
   
 }
 
