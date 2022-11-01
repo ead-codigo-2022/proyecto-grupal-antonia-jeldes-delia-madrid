@@ -65,18 +65,57 @@ table {
     font-family: 'Alegreya Sans', sans-serif;
 
     font-family: 'Krona One', sans-serif;
-   font-family: 'Actor', sans-serif;
+   font-family: 'Montserrat', sans-serif;
                                                 
     */
+  /*  para que el menu de navegacion se comprima en pantallas pequeñas*/
+  @media screen and (max-width: 500px) {
+    body{
+      background-color: #F6F3EE; 
+    }
+    .header a {
+      float: none;
+      display: block;
+      text-align: left;
+    }
+   p {
+    width: 100vh;
+    margin: 10%;
+   }
+   .parrafo {
+    width: 100vh;
+    margin: 10%;
+   }
+    
+    .header-right {
+      
+      display: flex;
+      flex-direction: column;
+      
 
+    }
+  h1 {
+    text-align: left;
+  }
+  .seccion2 {
+    margin-top: 10%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-between;
+   
+  }
+}
 .header {
     
     background-color: #F6F3EE;
     padding: 5px 10px;
     position: static;
+    height:fit-content;
+    margin-bottom: 5rem;
     
   }
-  
+    
  
   .header a {
     float: left;
@@ -87,16 +126,12 @@ table {
     font-size: 14px;
     line-height: 25px;
     border-radius: 10px;
-    font-family: Actor;
+    font-family: 'Montserrat', sans-serif;
+    
   
   }
   
-  /* Style the logo link (notice that we set the same value of line-height and font-size to prevent the header to increase when the font gets bigger */
-  .header a.logo {
-    font-size: 25px;
-    font-weight: bold;
-  }
-  
+ 
   /* hover */
   .header-right  a:hover  {
     
@@ -111,37 +146,16 @@ table {
     /* hacia la derecha */
   .header-right {
     float: right;
+    
   }
   
-  /*  para que el menu de navegacion se comprima en pantallas pequeñas*/
-  @media screen and (max-width: 500px) {
-    .header a {
-      float: none;
-      display: block;
-      text-align: left;
-    }
-   p {
-    width: 100%;
-    margin: 10%;
-   }
-   .parrafo {
-    width: 100vh;
-    margin: 10%;
-   }
-    
-    .header-right {
-      float: none;
-    }
-  h1 {
-    text-align: left;
-  }
-  }
+header{
+  
+}
+
   body {
     background-color: #F6F3EE;
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-
+    min-height: 100vh;   
   }
 
   h1 {
@@ -203,18 +217,25 @@ table {
 
 }
 .seccion2 {
-  font-size: 2rem;
-  padding: 1rem;
-  background-color:   #F6F3EE;
-  padding: 10%;
+  margin-top: 10%;
   display: flex;
-  min-width: 250px;
-  width: 100%;
+  flex-wrap: wrap;
   flex-direction: column;
   justify-content: space-between;
-  align-items: baseline;
+ 
   
 }
+/*titulos con fondo verde/ greenwashing*/
+.seccion3 {
+  width:100%;
+  margin-left: 0%;
+  margin-top: 0%;
+  left: 0;
+  display: flex;
+  justify-content: flex-start;
+  
+ 
+ }
 .seccion4 {
   width:100vh;
   margin-left: 0%;
@@ -346,6 +367,7 @@ font-family: 'Krona One', sans-serif;
 text-align: center;
 }
 footer{
+ 
   font-family: 'Alegreya Sans', sans-serif;
   margin-top: auto;
 }
@@ -364,6 +386,7 @@ footer{
  
  }
 .greenwashing {
+  font-family: 'Krona One', sans-serif;
   background-color: #326F59;
   width: 100%;
   padding: 2rem;
