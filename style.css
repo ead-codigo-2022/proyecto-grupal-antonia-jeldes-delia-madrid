@@ -217,7 +217,7 @@ header{
 
 }
 .seccion2 {
-  margin-top: 10%;
+ 
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
@@ -246,6 +246,14 @@ header{
   row-gap:10%;
   flex-wrap: wrap;
  
+ }
+ .seccion5 {
+  margin-top: 10%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: space-between;
+ width: 100%; 
  }
  .parrafo1 {
   margin: 2rem;
@@ -409,6 +417,14 @@ align-content: flex-start;
 box-sizing: border-box;
 
 }
+.containertiktok {
+  display: flex;
+  flex-wrap: wrap;
+justify-content: space-evenly;
+align-items: stretch;
+align-content: flex-start;
+box-sizing: border-box;
+}
 
 .pyme1 , .pyme2 , .pyme3 , .pyme4 , .pyme5 , .pyme6 , .pyme7 , .pyme8 , .pyme9 , .pyme10 , .pyme11 {
 width: 15rem;
@@ -422,7 +438,8 @@ display: flex;
 justify-content:space-around;
 flex-wrap: nowrap;
 flex-direction: column;
-gap: 10ox;
+gap: 10px;
+overflow: auto;
 
 
 } 
