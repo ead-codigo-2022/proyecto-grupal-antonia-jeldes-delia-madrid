@@ -105,6 +105,17 @@ table {
     justify-content: space-between;
    
   }
+  .seccion5 {
+    width: 100vw;
+  }
+  .seccion5 p {
+    width: 60vw;
+    margin-left: 20vw;
+    line-height:20px;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+   
+   }
 }
 .header {
     
@@ -115,6 +126,23 @@ table {
     margin-bottom: 5rem;
     
   }
+  .video {
+      position: relative;
+
+      overflow: hidden;
+
+    }
+    .responsivevideo {
+      position: absolute;
+      top: 0;
+      left: 0;
+      bottom: 0;
+      right: 0;
+      width: 100%;
+      height: 100%;
+    }
+
+  
     
  
   .header a {
@@ -345,6 +373,7 @@ p {
   font-family: 'Alegreya Sans', sans-serif;
   font-size: medium;
   line-height: 20px;
+  width: 80vw;
 }  
 
 .sobre-nosotras {
